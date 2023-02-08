@@ -10,7 +10,7 @@ cd backend
 you can change (JWT_SECRET ,SALT_ROUNDS) to any value you want.
 ###### then run this command in your terminal to install node_module
 ```
-npm instal
+npm install    
 ```
 ###### Second Go to frontend folder 
 ```
@@ -18,7 +18,7 @@ cd frontend
 ```
 ###### then run this command in your terminal to install node_module
 ```
-npm instal
+npm install    
 ```
 ###### Finaly Go Back to Bitcone_Articles folder and in your teminal run this command
 ```
