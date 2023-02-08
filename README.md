@@ -1,4 +1,4 @@
-# Bitcone_Articles
+# Bitcoin_Articles
 We hope you find what you need to know about bitcone available here
 
 ### Installation Guide
