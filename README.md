@@ -1,5 +1,5 @@
 # Bitcoin_Articles
-We hope you find what you need to know about bitcone available here
+We hope you find what you need to know about Bitcoin available here
 
 ### Installation Guide
 ###### First Go to backend folder
