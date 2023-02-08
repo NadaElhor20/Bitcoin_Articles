@@ -20,7 +20,7 @@ cd frontend
 ```
 npm install    
 ```
-###### Finaly Go Back to Bitcone_Articles folder and in your teminal run this command
+###### Finaly Go Back to Bitcoin_Articles folder and in your teminal run this command
 ```
 docker-compose up
 ```
@@ -30,7 +30,7 @@ docker-compose up
 docker-compose down
 ```
 
-### Pictures from Bitcone_Articales website
+### Pictures from Bitcoin_Articales website
 <div>
   <img src="https://user-images.githubusercontent.com/95687971/217610239-4dd72d53-e88d-44a9-b22a-c89ce4a82f99.png" width="300">
   <img src="https://user-images.githubusercontent.com/95687971/217610450-95399b8e-dab9-4cbc-9f33-f6cc57f59a64.png" width="300">
