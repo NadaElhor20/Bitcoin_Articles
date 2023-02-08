@@ -1,0 +1,32 @@
+
+body {
+    height:100%;
+    width:100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 2% 0;
+    position: relative;
+    background-color: #ffffff ;
+    justify-content: space-around
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+    background-color: #e7ebec;
+    box-shadow:0px 0px 0px 2px #eeeded;
+    border-radius: 0.3rem;
+    padding: 30px;
+    }

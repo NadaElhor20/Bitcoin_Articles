@@ -1,0 +1,39 @@
+version: '3.9'
+services:
+
+  cached:
+    image: redis
+    ports:
+      - 6378:6379
+    volumes:
+       - ./cache:/data
+
+  mongoApp:
+    image: mongo
+    ports:
+      - 27037:27017
+    volumes:
+       - ./data/db:/data/db
+      
+  backend:
+    restart: always
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - /usr/app/backend/node_modules
+      - ./backend:/usr/app/Backend
+     
+    depends_on:
+      - mongoApp
+      - cached
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - /usr/app/frontend/node_modules
+      - ./frontend:/usr/app/frontend
+
+
