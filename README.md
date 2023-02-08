@@ -46,5 +46,7 @@ docker-compose down
 <div>
   <img src="https://user-images.githubusercontent.com/95687971/217610492-b1a55053-401b-4df6-bd79-82c36a1e6745.png" width="300">
   <img src="https://user-images.githubusercontent.com/95687971/217610501-14c54bd9-3e01-4797-9340-e011b089c3d7.png" width="300">
-  <img src="https://user-images.githubusercontent.com/95687971/217610507-4ea7576d-08e7-42ed-97e5-2ca3cb58754c.png" width="300">
+</div>
+<div>
+   <img src="https://user-images.githubusercontent.com/95687971/217610507-4ea7576d-08e7-42ed-97e5-2ca3cb58754c.png" width="300">
 </div>
